@@ -4,7 +4,16 @@ This plugin allows vim to use [Racer](http://github.com/phildawes/racer) for Rus
 
 ## Installation
 
-1. Build / Install [Racer](http://github.com/phildawes/racer)
+1.Build / Install [Racer](http://github.com/phildawes/racer), e.g. using
+  Cargo:
+
+    ```
+    cargo install racer
+    ```
+
+    If you haven't done so already, get the Rust sources, for instance using
+
+    $ rustup component add rust-src
 
 2. Install using Pathogen, Vundle or NeoBundle. Or, copy `ftplugin/rust_racer.vim` into your `~/.vim/plugin` directory.
 
